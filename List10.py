@@ -6,4 +6,10 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    list2=[]
+    count_one=list1.count(1)
+    count_zero=list1.count(0)
+    list2=[count_zero, count_one]
+    return list2
+list1=[1,0,0,0,1,0]
+print(main(list1))
